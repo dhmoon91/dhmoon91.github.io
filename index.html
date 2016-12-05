@@ -64,9 +64,10 @@
        }
 
       .item img{
-        height: 250px;
-
+        height: 170px;
+        width: 150px;
       }
+
      .item h2 {
         color:black;
       }
@@ -81,32 +82,28 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" class="with-top-navbar">
 
 
-<nav class="navbar navbar-inverse navbar-fixed-top app-navbar">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-main">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="navbar-collapse collapse" id="navbar-collapse-main">
-
-        <ul class="nav navbar-nav hidden-xs">
-          <li class="active">
-            <a href="#profile">Profile</a>
-          </li>
-          <li>
-            <a href="#portfolio">Tech & Projects</a>
-          </li>
-          <li>
-            <a href="#contacts">Contact</a>
-          </li>
-        </ul>
+  <nav class="navbar navbar-inverse  navbar-fixed-top app-navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">WebSiteName</a>
       </div>
-  </div>
-</nav>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li ><a href="#profile">Profile</a></li>
+          <li>  <a href="#portfolio">Tech & Projects</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
 
 
 <div id="profile" class="profile-header text-center"
@@ -158,6 +155,7 @@
     <div class="w3-quarter">
 
         <img class="img-responsive center-block" src="img/Node.js_logo_2015.svg" style="margin-top:-10px">
+        <p></p>
         <p class="w3-large" style="margin-top:10px">Node JS</p>
 
 
