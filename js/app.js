@@ -1,4 +1,6 @@
 
+$(document).ready(function() {  
+    
 $('h1').fadeIn(1000);
 
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -33,4 +35,6 @@ $(window).scroll(function(){
 			});
 		}
 	});
+});
+
 });
