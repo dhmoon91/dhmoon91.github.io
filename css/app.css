@@ -1,0 +1,208 @@
+h1{
+	display:none;
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+body{
+	height:100%;
+}
+p{
+	font-family: "Montserrat", "Avenir";
+}
+#content{
+	text-align: center;
+	background-image: url("../img/startup-1.jpg")
+}
+
+.navbar{
+	margin-bottom: 0px;
+	background-color: white;
+}
+
+.navbar-default{
+	background-color:black;
+	opacity: 0.8;
+	border:none;
+}
+
+ .navbar li a, .navbar-brand{
+        color:white !important;
+  }
+
+ .navbar-nav li.active a{
+       color: black !important;
+        background-color:white !important;
+  }
+.jumbotron{
+	margin-top: 0;
+	margin-bottom: 0;
+	height:600px;
+	background-image: url("../inner-6.jpg");
+	color:white;
+	/*background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%, rgba(0,0,0,0.6) 100%), url("../inner-6.jpg");;*/
+	background-size: cover;
+	background-attachment: fixed;
+	overflow: auto;
+	text-align: center;
+}
+
+.jumbotron .img-responsive{
+	margin: 0 auto;
+	opacity: 0.9;
+}
+
+.jumbotron a{
+	letter-spacing: 20px;
+}
+
+.jumbotron p{
+	margin-top: 100px;
+}
+
+#profile_image{
+	text-align: center;
+	vertical-align: middle;
+	opacity: 0.5;
+}
+
+#about{
+	height:350px;
+	background-color: lightgray;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+#skill{
+	
+	text-align: left;
+	line-height: 4;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid gray;
+	
+}
+
+#projects{
+	
+	text-align: left;
+	line-height: 4;
+	margin-top: 30px;
+	margin-right: 0;
+	background-color: #333333;
+	color:white;
+}
+
+#projects .img-thumbnail{
+	width:250px;
+	height:300px;
+}
+
+.img_caption{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width:80%;
+	height:70%;
+	transform: translate(-50%, -50%);
+
+}
+.img_text{
+	color:white;
+	font-size:16px;
+	text-align: left;
+}
+
+.img_text p{
+	line-height: 20px;	
+}
+
+.container_img{
+	text-align: center;
+}
+.container_img:hover img{
+	opacity:0.3;
+}
+.container_img:hover .img_caption{
+	opacity:1;
+}
+
+.skillbar{
+	position:relative;
+	display:block;
+	margin-bottom: 15px;
+	width:100%;
+	background: #eee;
+	height:35px;
+	border-radius: 3px;
+	transition: 0.4s linear;
+	transition-property: width, background-color;
+	opacity:0;
+}
+
+.skillbar-title{
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+.caption{
+	text-align: center;
+	margin-top: 10px;
+	letter-spacing: 5px;
+}
+a, a:visited, a:hover{
+	text-decoration: none;
+	color:#a9a9a9;
+}
+
+.hover-green:hover{
+	color: #2ecc71;
+}
+
+.hover-yellow:hover{
+	color:#fff956;
+}
+
+.hover-blue:hover{
+	color:#4185f2;
+}
+
+
